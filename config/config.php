@@ -9,7 +9,7 @@ return [
     'session.name' => 'cockpit-mysession',
 
     # app custom security key
-    'sec-key' => 'account-ffd45a75a747fb0b083ccf5ed6c5b9',
+    'sec-key' => 'account-b8ab17de4d814e575901c8654b8eb7',
 
     # define the languages you want to manage
     'languages' => [
@@ -37,9 +37,9 @@ return [
 
     # use mongodb as main data storage
     'database' => [   
-        'server' => 'mongodb+srv://cockpitadmin:WzsvFwIjFc21AovL@cluster0-n97rf.mongodb.net/ccockpit-heroku',
+        'server' => 'mongodb+srv://cockpitadmin:WzsvFwIjFc21AovL@cluster0-n97rf.mongodb.net/cockpit-heroku-new',
         'options' => [
-            'db' => 'cockpit-heroku'
+            'db' => 'cockpit-heroku-new'
         ]
     ],
 
