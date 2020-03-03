@@ -3,10 +3,10 @@
 return [
 
     # cockpit session name
-    'app.name' => 'Cockpit CMS',
+    'app.name' => 'Cockpit CMS Heroku',
 
     # cockpit session name
-    'session.name' => 'cockpit-mysession',
+    'session.name' => 'cockpit-mysession-heroku',
 
     # app custom security key
     'sec-key' => 'aca81a0ad891963fb3fba5d9b22b5a',
