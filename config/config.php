@@ -9,7 +9,7 @@ return [
     'session.name' => 'cockpit-mysession',
 
     # app custom security key
-    'sec-key' => 'account-b8ab17de4d814e575901c8654b8eb7',
+    'sec-key' => 'aca81a0ad891963fb3fba5d9b22b5a',
 
     # define the languages you want to manage
     'languages' => [
