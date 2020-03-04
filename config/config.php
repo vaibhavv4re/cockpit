@@ -2,21 +2,8 @@
 
 return [
 
-    # cockpit session name
+    # cockpit app name
     'app.name' => 'Cockpit CMS Heroku',
-
-    # cockpit session name
-    'session.name' => 'cockpit-mysession-heroku',
-
-    # app custom security key
-    'sec-key' => 'aca81a0ad891963fb3fba5d9b22b5a',
-
-    # define the languages you want to manage
-    'languages' => [
-        //'default' => 'English',       #setting a default language is optional
-        'fr' => 'French',
-        'de' => 'German'
-    ],
 
     # define additional groups
     'groups' => [
@@ -43,7 +30,17 @@ return [
         ]
     ],
 
-  
+   # use smtp to send emails
+    'mailer' => [
+        'from'       => 'vaibhav.frs@gmail.com',
+        'transport'  => 'smtp'
+        'host'       => 'smtp.gmail.com',
+        'user'       => 'vaibhav.frs'
+        'password'   => 'Nyra12345#',
+        'port'       => 25,
+        'auth'       => true,
+        'encryption' => '' # '', 'ssl' or 'tls'
+    ]
 
     # Define Access-Control (CORS) settings.
     # Those are the default values. You don't need to duplicate them all.
